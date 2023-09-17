@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\workspace\demo\backend\backend\bin\Release\net7.0\publish\</_PublishTargetUrl>
+    <History>True|2023-09-14T09:54:21.5410263Z;True|2023-09-14T17:46:17.5224217+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SqlServerConn">
+      <Value>Data Source= 192.168.28.189%3b Connect Timeout=600%3bUser ID= SA%3bPassword= SA%40123456%3b Initial Catalog= demo%3bEncrypt=False%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="core.DBContext.SqlDBContext">
+      <Value>Data Source= 192.168.28.189%3b Connect Timeout=600%3bUser ID= SA%3bPassword= SA%40123456%3b Initial Catalog= demo%3bEncrypt=False%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
